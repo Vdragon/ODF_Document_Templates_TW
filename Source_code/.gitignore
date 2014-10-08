@@ -1,9 +1,15 @@
-# Following taken from https://github.com/github/gitignore/blob/master/CMake.gitignore
-# MIT license
-CMakeCache.txt
-CMakeFiles
-Makefile
-cmake_install.cmake
-install_manifest.txt
+# Git 忽略規則
+## 忽略無法版本控制的二進位檔案格式
+### Open Document Format(ODF)
+*.odt
+*.odp
+
+### Microsoft office formats
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
 
 !.gitignore
