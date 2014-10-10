@@ -5,7 +5,7 @@
 
 ## 關於專案本身的變數
 ## Variables about the project itself
-name_project = name_project undefined
+name_project = ODF_document_templates
 name_project_abbrieviation = name_project_abbrieviation undefined
 name_target = name_target undefined
 name_module = name_module undefined
