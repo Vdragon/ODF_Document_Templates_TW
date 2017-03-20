@@ -325,10 +325,6 @@
 			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
 			<presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
 		</style:presentation-page-layout>
-		<style:presentation-page-layout style:name="AL1T0">
-			<presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
-			<presentation:placeholder presentation:object="subtitle" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
-		</style:presentation-page-layout>
 	</office:styles>
 	<office:automatic-styles>
 		<style:page-layout style:name="PM0">
@@ -352,25 +348,19 @@
 		<style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
 			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
 		</style:style>
-		<style:style style:name="gr3" style:family="graphic">
+		<style:style style:name="gr3" style:family="graphic" style:parent-style-name="standard">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-width="true" fo:min-height="0.941cm" fo:min-width="1.504cm"/>
+		</style:style>
+		<style:style style:name="gr4" style:family="graphic">
 			<style:graphic-properties style:protect="size"/>
 		</style:style>
 		<style:style style:name="pr1" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
-			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.449cm"/>
-		</style:style>
-		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
 			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
 		</style:style>
-		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
+		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="預設-backgroundobjects">
 			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
 		</style:style>
-		<style:style style:name="pr4" style:family="presentation" style:parent-style-name="預設-title">
-			<style:graphic-properties fo:min-height="3.506cm"/>
-		</style:style>
-		<style:style style:name="pr5" style:family="presentation" style:parent-style-name="預設-subtitle">
-			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="12.178cm"/>
-		</style:style>
-		<style:style style:name="pr6" style:family="presentation" style:parent-style-name="預設-notes">
+		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="預設-notes">
 			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="13.364cm"/>
 		</style:style>
 		<style:style style:name="P1" style:family="paragraph">
@@ -390,13 +380,10 @@
 			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
 		</style:style>
 		<style:style style:name="P5" style:family="paragraph">
-			<style:paragraph-properties fo:text-align="center"/>
-			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+			<style:paragraph-properties fo:text-align="end"/>
 		</style:style>
 		<style:style style:name="P6" style:family="paragraph">
 			<loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
-			<style:paragraph-properties fo:text-align="center"/>
-			<style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
 		</style:style>
 		<style:style style:name="P7" style:family="paragraph">
 			<loext:graphic-properties draw:fill-color="#ffffff"/>
@@ -519,6 +506,10 @@
 							<presentation:header/>
 						</text:span>
 						<text:span text:style-name="T1"> </text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<presentation:header/>
 					</text:p>
 				</draw:text-box>
@@ -526,6 +517,10 @@
 			<draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
 				<draw:text-box>
 					<text:p text:style-name="P3">
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:span text:style-name="T1">
 							<presentation:date-time/>
 						</text:span>
@@ -557,6 +552,10 @@
 							<presentation:footer/>
 						</text:span>
 						<text:span text:style-name="T1"> </text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<presentation:footer/>
 					</text:p>
 				</draw:text-box>
@@ -564,6 +563,10 @@
 			<draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
 				<draw:text-box>
 					<text:p text:style-name="P3">
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:span text:style-name="T1">
 							<text:page-number>&lt;編號&gt;</text:page-number>
 						</text:span>
@@ -591,33 +594,18 @@
 			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
-			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.178cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.178cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
-			<draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
-				<draw:text-box>
-					<text:p text:style-name="P1">
-						<text:span text:style-name="T1">
-							<presentation:date-time/>
-						</text:span>
-					</text:p>
-				</draw:text-box>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.178cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
 			</draw:frame>
-			<draw:frame presentation:style-name="pr1" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
+			<draw:frame draw:style-name="gr3" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="2.475cm" svg:height="1.191cm" svg:x="25.6cm" svg:y="19.8cm">
 				<draw:text-box>
 					<text:p text:style-name="P5">
-						<text:span text:style-name="T1">
-							<presentation:footer/>
-						</text:span>
-					</text:p>
-				</draw:text-box>
-			</draw:frame>
-			<draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.131cm" presentation:class="page-number">
-				<draw:text-box>
-					<text:p text:style-name="P3">
 						<text:page-number>&lt;編號&gt;</text:page-number>
 					</text:p>
 				</draw:text-box>
@@ -636,9 +624,16 @@
 				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
 					<draw:text-box/>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+				<draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
 					<draw:text-box>
 						<text:p text:style-name="P1">
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<presentation:header/>
 							</text:span>
@@ -655,9 +650,13 @@
 						</text:p>
 					</draw:text-box>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
+				<draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
 					<draw:text-box>
 						<text:p text:style-name="P3">
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<presentation:date-time/>
 							</text:span>
@@ -674,9 +673,13 @@
 						</text:p>
 					</draw:text-box>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
+				<draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
 					<draw:text-box>
 						<text:p text:style-name="P1">
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<presentation:footer/>
 							</text:span>
@@ -693,9 +696,13 @@
 						</text:p>
 					</draw:text-box>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr3" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
+				<draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
 					<draw:text-box>
 						<text:p text:style-name="P3">
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<text:page-number>&lt;編號&gt;</text:page-number>
 							</text:span>
@@ -717,16 +724,10 @@
 	</office:master-styles>
 	<office:body>
 		<office:presentation>
-			<draw:page draw:name="page1" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL1T0">
-				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
-					<draw:text-box/>
-				</draw:frame>
-				<draw:frame presentation:style-name="pr5" draw:text-style-name="P7" draw:layer="layout" svg:width="25.199cm" svg:height="12.178cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="subtitle" presentation:placeholder="true" presentation:user-transformed="true">
-					<draw:text-box/>
-				</draw:frame>
+			<draw:page draw:name="page1" draw:style-name="dp3" draw:master-page-name="預設">
 				<presentation:notes draw:style-name="dp2">
-					<draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="1" presentation:class="page"/>
-					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
+					<draw:page-thumbnail draw:style-name="gr4" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="1" presentation:class="page"/>
+					<draw:frame presentation:style-name="pr3" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
 						<draw:text-box/>
 					</draw:frame>
 				</presentation:notes>
