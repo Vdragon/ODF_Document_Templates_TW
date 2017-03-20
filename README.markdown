@@ -1,5 +1,5 @@
-# 開放文件格式(ODF)文件範本<br />ODF document templates
-[https://github.com/Vdragon/ODF_document_templates](https://github.com/Vdragon/ODF_document_templates)
+# 以台灣為目標族群的開放文件格式(ODF)文件範本
+[https://github.com/Vdragon/ODF_Document_Templates_TW](https://github.com/Vdragon/ODF_Document_Templates_TW)
 
 ## 這是什麼？<br />What is this?
 這是開發協作范用開放文件格式(ODF)文件的專案，以台灣使用者為目標族群
