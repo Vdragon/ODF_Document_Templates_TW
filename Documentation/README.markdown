@@ -2,5 +2,5 @@
 這是置放說明文件的目錄
 
 ## 目錄架構<br />Directory structure
-* README.md
+* README.markdown
     * 本說明文件
