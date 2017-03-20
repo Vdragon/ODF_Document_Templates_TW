@@ -1,8 +1,3 @@
-#*.fodt filter=clean-fodt
-#*.xslt filter=clean-xml
-#*.svg filter=clean-svg
-#*.html filter=clean-html
-#*.xhtml filter=clean-html
-#*.htm filter=clean-html
-#*.css filter=clean-css-csstidy
-#*.css filter=clean-css-cssbeautify
+*.fodt filter=clean-fodt
+*.xslt filter=clean-xml
+*.svg filter=clean-svg
