@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # 上列為宣告執行 script 程式用的殼程式(shell)的 shebang
-# Clean filter for Flat-ODF wrapper for manual applying
+# Clean filter for Flat-XML ODF wrapper for manual applying
 # 林博仁 © 2016
+# Ｖ字龍 © 2017
 
 ######## File scope variable definitions ########
 # Defensive Bash Programming - not-overridable primitive definitions
@@ -44,7 +45,7 @@ main() {
 
 		rm --force "$temp_file"
 
-		cat "$PROGRAM_ARGUMENT_ORIGINAL_LIST" | "$PROGRAM_DIRECTORY"/clean-fodf.bash >"$temp_file"
+		cat "$PROGRAM_ARGUMENT_ORIGINAL_LIST" | "$PROGRAM_DIRECTORY/$(basename --suffix=.manual-apply.bash "${PROGRAM_FILENAME}").bash" >"$temp_file"
 
 		mv --force "$temp_file" "$PROGRAM_ARGUMENT_ORIGINAL_LIST"
 

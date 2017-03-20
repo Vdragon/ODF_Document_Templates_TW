@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # 上列為宣告執行 script 程式用的殼程式(shell)的 shebang
-# Clean filter for Flat-ODF
+# Clean filter for Flat-XML ODF
 # 林博仁 © 2016
+# Ｖ字龍 © 2017
 
 ######## File scope variable definitions ########
 # Defensive Bash Programming - not-overridable primitive definitions
@@ -32,7 +33,7 @@ set -o pipefail
 # Defensive Bash Programming - main function, program entry point
 # http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
 main() {
-	printf "Clean 過濾器：正在移除非必要資訊跟美化 XML 標記代碼……\n" 1>&2
+	printf "Clean 過濾器：正在移除非必要資訊跟美化 Flat XML ODF 標記代碼……\n" 1>&2
 
 	# Catch the incoming stream to a temp file
 	local temp_file_name="$(basename "$PROGRAM_FILENAME").temporary.stdin.xml"
@@ -64,7 +65,7 @@ main() {
 	xml_delete_node "$temp_file" "/office:document/office:styles/style:default-style"
 
 	# 不追蹤非必要且會變動的 xml:id 屬性
-	xml_transform_node "$PROGRAM_DIRECTORY"/clean-fodf.remove-xml-id-attributes.xslt "$temp_file"
+	xml_transform_node "$PROGRAM_DIRECTORY/$(basename --suffix=.bash "$PROGRAM_FILENAME").remove-xml-id-attributes.xslt" "$temp_file"
 
 	xml_format_node "$temp_file"
 
