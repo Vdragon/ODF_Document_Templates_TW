@@ -6,17 +6,14 @@
 	</office:meta>
 	<office:scripts>
 		<office:script script:language="ooo:Basic">
-			<ooo:libraries>
-				<ooo:library-embedded ooo:name="Standard"/>
-			</ooo:libraries>
+			<ooo:libraries/>
 		</office:script>
 	</office:scripts>
 	<office:font-face-decls>
 		<style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol" style:font-charset="x-symbol"/>
 		<style:font-face style:name="Noto Sans CJK TC Regular1" svg:font-family="'Noto Sans CJK TC Regular'" style:font-adornments="標準" style:font-family-generic="swiss"/>
-		<style:font-face style:name="Liberation Mono" svg:font-family="'Liberation Mono'" style:font-family-generic="modern" style:font-pitch="fixed"/>
-		<style:font-face style:name="Droid Sans Mono1" svg:font-family="'Droid Sans Mono'" style:font-family-generic="swiss" style:font-pitch="fixed"/>
-		<style:font-face style:name="Droid Sans Mono" svg:font-family="'Droid Sans Mono'" style:font-adornments="標準" style:font-family-generic="swiss" style:font-pitch="fixed"/>
+		<style:font-face style:name="Noto Mono" svg:font-family="'Noto Mono'" style:font-adornments="標準" style:font-pitch="fixed"/>
+		<style:font-face style:name="Droid Sans Mono" svg:font-family="'Droid Sans Mono'" style:font-family-generic="swiss" style:font-pitch="fixed"/>
 		<style:font-face style:name="Liberation Serif" svg:font-family="'Liberation Serif'" style:font-family-generic="roman" style:font-pitch="variable"/>
 		<style:font-face style:name="Noto Sans CJK TC Regular" svg:font-family="'Noto Sans CJK TC Regular'" style:font-adornments="標準" style:font-family-generic="swiss" style:font-pitch="variable"/>
 	</office:font-face-decls>
@@ -162,8 +159,8 @@
 			</style:paragraph-properties>
 		</style:style>
 		<style:style style:name="Preformatted_20_Text" style:display-name="Preformatted Text" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
-			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
-			<style:text-properties style:font-name="Droid Sans Mono" fo:font-family="'Droid Sans Mono'" style:font-style-name="標準" style:font-family-generic="swiss" style:font-pitch="fixed" fo:font-size="12pt" style:font-name-asian="Droid Sans Mono" style:font-family-asian="'Droid Sans Mono'" style:font-style-name-asian="標準" style:font-family-generic-asian="swiss" style:font-pitch-asian="fixed" style:font-size-asian="12pt" style:font-name-complex="Liberation Mono" style:font-family-complex="'Liberation Mono'" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed" style:font-size-complex="10pt"/>
+			<style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" style:writing-mode="page"/>
+			<style:text-properties style:font-name="Noto Mono" fo:font-family="'Noto Mono'" style:font-style-name="標準" style:font-pitch="fixed" fo:font-size="12pt" style:font-name-asian="Noto Sans CJK TC Regular" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-style-name-asian="標準" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:font-name-complex="Noto Sans CJK TC Regular" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-style-name-complex="標準" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:language-complex="zxx" style:country-complex="none"/>
 		</style:style>
 		<style:style style:name="Rubies" style:family="text">
 			<style:text-properties fo:font-size="6pt" style:text-underline-style="none" style:font-size-asian="6pt" style:font-size-complex="6pt" style:text-emphasize="none"/>
@@ -568,28 +565,24 @@
 		<style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body">
 			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
 		</style:style>
-		<style:style style:name="P9" style:family="paragraph" style:parent-style-name="Subtitle">
-			<style:text-properties officeooo:rsid="000ed79e" officeooo:paragraph-rsid="000ed79e"/>
+		<style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
+			<style:text-properties officeooo:paragraph-rsid="00156c97"/>
 		</style:style>
-		<style:style style:name="P10" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:break-before="page"/>
+		<style:style style:name="P10" style:family="paragraph" style:parent-style-name="Text_20_body">
+			<style:text-properties officeooo:paragraph-rsid="00156c97"/>
 		</style:style>
-		<style:style style:name="P11" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:break-before="page"/>
-			<style:text-properties officeooo:paragraph-rsid="0010cdf7"/>
+		<style:style style:name="P11" style:family="paragraph" style:parent-style-name="Text_20_body">
+			<style:text-properties officeooo:paragraph-rsid="00170a60"/>
 		</style:style>
-		<style:style style:name="P12" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:break-before="page"/>
+		<style:style style:name="P12" style:family="paragraph" style:parent-style-name="List">
+			<style:text-properties officeooo:rsid="00141109" officeooo:paragraph-rsid="000fc679"/>
+		</style:style>
+		<style:style style:name="P13" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L2"/>
+		<style:style style:name="P14" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L2">
 			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
 		</style:style>
-		<style:style style:name="P13" style:family="paragraph" style:parent-style-name="Contents_20_Heading">
-			<style:paragraph-properties fo:break-before="page"/>
-		</style:style>
-		<style:style style:name="P14" style:family="paragraph" style:parent-style-name="Heading_20_5">
-			<style:text-properties officeooo:paragraph-rsid="0010cdf7"/>
-		</style:style>
-		<style:style style:name="P15" style:family="paragraph" style:parent-style-name="Heading_20_5">
-			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
+		<style:style style:name="P15" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L3">
+			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
 		</style:style>
 		<style:style style:name="P16" style:family="paragraph" style:parent-style-name="Contents_20_1">
 			<style:paragraph-properties>
@@ -598,127 +591,61 @@
 				</style:tab-stops>
 			</style:paragraph-properties>
 		</style:style>
-		<style:style style:name="P17" style:family="paragraph" style:parent-style-name="List">
+		<style:style style:name="P17" style:family="paragraph" style:parent-style-name="Heading_20_1">
+			<style:paragraph-properties fo:break-before="page"/>
+			<style:text-properties officeooo:paragraph-rsid="0010cdf7"/>
+		</style:style>
+		<style:style style:name="P18" style:family="paragraph" style:parent-style-name="Heading_20_1">
+			<style:paragraph-properties fo:break-before="page"/>
 			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
 		</style:style>
-		<style:style style:name="P18" style:family="paragraph" style:parent-style-name="List">
-			<style:text-properties officeooo:rsid="00141109" officeooo:paragraph-rsid="000fc679"/>
+		<style:style style:name="P19" style:family="paragraph" style:parent-style-name="Heading_20_5">
+			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
 		</style:style>
-		<style:style style:name="P19" style:family="paragraph" style:parent-style-name="List">
-			<style:text-properties style:font-name="Droid Sans Mono1" officeooo:rsid="00141109" officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P20" style:family="paragraph" style:parent-style-name="Contents_20_5">
-			<style:paragraph-properties>
-				<style:tab-stops>
-					<style:tab-stop style:position="14.982cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
-				</style:tab-stops>
-			</style:paragraph-properties>
+		<style:style style:name="P20" style:family="paragraph" style:parent-style-name="Heading_20_2">
+			<style:text-properties officeooo:paragraph-rsid="00156c97"/>
 		</style:style>
 		<style:style style:name="P21" style:family="paragraph" style:parent-style-name="Heading_20_4">
 			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
 		</style:style>
 		<style:style style:name="P22" style:family="paragraph" style:parent-style-name="Heading_20_3">
+			<style:text-properties officeooo:paragraph-rsid="00156c97"/>
+		</style:style>
+		<style:style style:name="P23" style:family="paragraph" style:parent-style-name="Heading_20_3">
 			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
 		</style:style>
-		<style:style style:name="P23" style:family="paragraph" style:parent-style-name="Contents_20_4">
+		<style:style style:name="P24" style:family="paragraph" style:parent-style-name="Contents_20_Heading">
+			<style:paragraph-properties fo:break-before="page"/>
+		</style:style>
+		<style:style style:name="P25" style:family="paragraph" style:parent-style-name="Contents_20_4">
 			<style:paragraph-properties>
 				<style:tab-stops>
 					<style:tab-stop style:position="15.482cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 		</style:style>
-		<style:style style:name="P24" style:family="paragraph" style:parent-style-name="Contents_20_2">
+		<style:style style:name="P26" style:family="paragraph" style:parent-style-name="Contents_20_2">
 			<style:paragraph-properties>
 				<style:tab-stops>
 					<style:tab-stop style:position="16.48cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 		</style:style>
-		<style:style style:name="P25" style:family="paragraph" style:parent-style-name="Preformatted_20_Text">
-			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P26" style:family="paragraph" style:parent-style-name="Contents_20_3">
-			<style:paragraph-properties>
-				<style:tab-stops>
-					<style:tab-stop style:position="15.981cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-		</style:style>
-		<style:style style:name="P27" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
-			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P28" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
-			<style:text-properties officeooo:rsid="00141109" officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P29" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L1">
-			<style:text-properties style:font-name="Droid Sans Mono1" officeooo:rsid="00141109" officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P30" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L2"/>
-		<style:style style:name="P31" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L2">
-			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P32" style:family="paragraph" style:parent-style-name="List" style:list-style-name="L3">
-			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P33" style:family="paragraph" style:parent-style-name="Contents_20_1">
-			<style:paragraph-properties>
-				<style:tab-stops>
-					<style:tab-stop style:position="16.979cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-		</style:style>
-		<style:style style:name="P34" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:break-before="page"/>
-			<style:text-properties officeooo:paragraph-rsid="0010cdf7"/>
-		</style:style>
-		<style:style style:name="P35" style:family="paragraph" style:parent-style-name="Heading_20_1">
-			<style:paragraph-properties fo:break-before="page"/>
-			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P36" style:family="paragraph" style:parent-style-name="Heading_20_4">
-			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
-		</style:style>
-		<style:style style:name="P37" style:family="paragraph" style:parent-style-name="Heading_20_3">
-			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
-		</style:style>
-		<style:style style:name="P38" style:family="paragraph" style:parent-style-name="Heading_20_5">
-			<style:text-properties officeooo:paragraph-rsid="000fa217"/>
-		</style:style>
-		<style:style style:name="P39" style:family="paragraph" style:parent-style-name="Contents_20_Heading">
-			<style:paragraph-properties fo:break-before="page"/>
-		</style:style>
-		<style:style style:name="P40" style:family="paragraph" style:parent-style-name="Contents_20_5">
+		<style:style style:name="P27" style:family="paragraph" style:parent-style-name="Contents_20_5">
 			<style:paragraph-properties>
 				<style:tab-stops>
 					<style:tab-stop style:position="14.982cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 		</style:style>
-		<style:style style:name="P41" style:family="paragraph" style:parent-style-name="Contents_20_4">
-			<style:paragraph-properties>
-				<style:tab-stops>
-					<style:tab-stop style:position="15.482cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-		</style:style>
-		<style:style style:name="P42" style:family="paragraph" style:parent-style-name="Contents_20_2">
-			<style:paragraph-properties>
-				<style:tab-stops>
-					<style:tab-stop style:position="16.48cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
-				</style:tab-stops>
-			</style:paragraph-properties>
-		</style:style>
-		<style:style style:name="P43" style:family="paragraph" style:parent-style-name="Contents_20_3">
+		<style:style style:name="P28" style:family="paragraph" style:parent-style-name="Contents_20_3">
 			<style:paragraph-properties>
 				<style:tab-stops>
 					<style:tab-stop style:position="15.981cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 		</style:style>
-		<style:style style:name="P44" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L1">
-			<style:text-properties officeooo:paragraph-rsid="000fc679"/>
-		</style:style>
-		<style:style style:name="P45" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L4"/>
+		<style:style style:name="P29" style:family="paragraph" style:parent-style-name="Preformatted_20_Text" style:list-style-name="L4"/>
 		<style:style style:name="T1" style:family="text">
 			<style:text-properties style:font-name="Noto Sans CJK TC Regular1" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-name-complex="Noto Sans CJK TC Regular1"/>
 		</style:style>
@@ -732,22 +659,25 @@
 			<style:text-properties officeooo:rsid="000fa217"/>
 		</style:style>
 		<style:style style:name="T5" style:family="text">
-			<style:text-properties style:text-position="super 58%"/>
-		</style:style>
-		<style:style style:name="T6" style:family="text">
 			<style:text-properties style:text-position="super 58%" officeooo:rsid="000fa217"/>
 		</style:style>
-		<style:style style:name="T7" style:family="text">
+		<style:style style:name="T6" style:family="text">
 			<style:text-properties officeooo:rsid="000fc679"/>
 		</style:style>
+		<style:style style:name="T7" style:family="text">
+			<style:text-properties style:font-name="Droid Sans Mono"/>
+		</style:style>
 		<style:style style:name="T8" style:family="text">
-			<style:text-properties style:font-name="Droid Sans Mono1"/>
+			<style:text-properties style:font-name="Droid Sans Mono" officeooo:rsid="00141109"/>
 		</style:style>
 		<style:style style:name="T9" style:family="text">
-			<style:text-properties officeooo:rsid="0012771e"/>
+			<style:text-properties style:font-name="Droid Sans Mono" officeooo:rsid="00156c97"/>
 		</style:style>
 		<style:style style:name="T10" style:family="text">
-			<style:text-properties officeooo:rsid="00156cd7"/>
+			<style:text-properties officeooo:rsid="0012771e"/>
+		</style:style>
+		<style:style style:name="T11" style:family="text">
+			<style:text-properties officeooo:rsid="00170a60"/>
 		</style:style>
 		<style:style style:name="Sect1" style:family="section">
 			<style:section-properties style:editable="false">
@@ -757,52 +687,52 @@
 		<text:list-style style:name="L1">
 			<text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="0.635cm" fo:text-indent="-0.635cm" fo:margin-left="0.635cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.27cm" fo:text-indent="-0.635cm" fo:margin-left="1.27cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="1.905cm" fo:text-indent="-0.635cm" fo:margin-left="1.905cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="2.54cm" fo:text-indent="-0.635cm" fo:margin-left="2.54cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.175cm" fo:text-indent="-0.635cm" fo:margin-left="3.175cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="3.81cm" fo:text-indent="-0.635cm" fo:margin-left="3.81cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="4.445cm" fo:text-indent="-0.635cm" fo:margin-left="4.445cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" text:bullet-char="◦">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.08cm" fo:text-indent="-0.635cm" fo:margin-left="5.08cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" text:bullet-char="▪">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="5.715cm" fo:text-indent="-0.635cm" fo:margin-left="5.715cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 			<text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" text:bullet-char="•">
 				<style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.985cm" fo:text-indent="-0.635cm" fo:margin-left="6.985cm"/>
+					<style:list-level-label-alignment text:label-followed-by="listtab" text:list-tab-stop-position="6.35cm" fo:text-indent="-0.635cm" fo:margin-left="6.35cm"/>
 				</style:list-level-properties>
 			</text:list-level-style-bullet>
 		</text:list-style>
@@ -1002,85 +932,25 @@
 				<text:title>〈文件標題〉</text:title>
 			</text:p>
 			<text:p text:style-name="P6">〈文件封面圖案插入處〉<text:line-break/><text:span text:style-name="T1">▲</text:span>〈文件封面圖案描述文字〉</text:p>
-			<text:h text:style-name="P11" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1748_1985123062"/>本作品的智慧財產授權條款<text:line-break/><text:span text:style-name="T3">Intellectual Property License Applied to This Work</text:span><text:bookmark-end text:name="__RefHeading__1748_1985123062"/></text:h>
-			<text:h text:style-name="P12" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__2048_1985123062"/>本作品使用的字型<text:line-break/><text:span text:style-name="T9">Fonts Used In This Work</text:span><text:bookmark-end text:name="__RefHeading__2048_1985123062"/></text:h>
-			<text:p text:style-name="P8">本作品使用下列字型：</text:p>
-			<text:list text:style-name="L1">
-				<text:list-item>
-					<text:p text:style-name="P27">Google Noto Sans CJK</text:p>
-					<text:list>
-						<text:list-item>
-							<text:p text:style-name="P27">獲取方式</text:p>
-							<text:list>
-								<text:list-item>
-									<text:p text:style-name="P28">自下列網頁下載安裝：<text:line-break/><text:span text:style-name="T10">Google Noto Fonts</text:span><text:line-break/><text:a xlink:type="simple" xlink:href="https://www.google.com/get/noto/cjk.html" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://www.google.com/get/noto/cjk.html</text:a></text:p>
-								</text:list-item>
-							</text:list>
-						</text:list-item>
-						<text:list-item>
-							<text:p text:style-name="P27">使用範圍</text:p>
-							<text:list>
-								<text:list-item>
-									<text:p text:style-name="P27">用於所有一般內容</text:p>
-								</text:list-item>
-							</text:list>
-						</text:list-item>
-					</text:list>
-				</text:list-item>
-				<text:list-item>
-					<text:p text:style-name="P29">Droid Sans Mono</text:p>
-					<text:list>
-						<text:list-item>
-							<text:p text:style-name="P28">獲取方式</text:p>
-							<text:list>
-								<text:list-item>
-									<text:p text:style-name="P28">官方網站</text:p>
-									<text:list>
-										<text:list-item>
-											<text:p text:style-name="P28">
-												<text:span text:style-name="T10">Google Fonts Droid Sans Mono</text:span>
-												<text:line-break/>
-												<text:a xlink:type="simple" xlink:href="https://www.google.com/fonts/specimen/Droid+Sans+Mono" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://www.google.com/fonts/specimen/Droid+Sans+Mono</text:a>
-											</text:p>
-										</text:list-item>
-									</text:list>
-								</text:list-item>
-								<text:list-item>
-									<text:p text:style-name="P28">下載網頁</text:p>
-									<text:list>
-										<text:list-item>
-											<text:p text:style-name="P28">
-												<text:span text:style-name="T10">/apache/droidsansmono/ - googlefontdirectory - Download Google Web Fonts - Google Project Hosting</text:span>
-												<text:line-break/>
-												<text:a xlink:type="simple" xlink:href="https://code.google.com/p/googlefontdirectory/source/browse/apache/droidsansmono/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://code.google.com/p/googlefontdirectory/source/browse/apache/droidsansmono/</text:a>
-											</text:p>
-										</text:list-item>
-									</text:list>
-								</text:list-item>
-							</text:list>
-						</text:list-item>
-						<text:list-item>
-							<text:p text:style-name="P28">使用範圍</text:p>
-							<text:list>
-								<text:list-item>
-									<text:p text:style-name="P28">使用於「預先格式化的文字」樣式，主要用於命令列介面的命令</text:p>
-									<text:list>
-										<text:list-item>
-											<text:p text:style-name="P28">範例</text:p>
-											<text:list>
-												<text:list-item>
-													<text:p text:style-name="P44"># <text:span text:style-name="T8">apt-get update; apt-get install sl</text:span></text:p>
-												</text:list-item>
-											</text:list>
-										</text:list-item>
-									</text:list>
-								</text:list-item>
-							</text:list>
-						</text:list-item>
-					</text:list>
-				</text:list-item>
-			</text:list>
-			<text:p text:style-name="P7"/>
+			<text:h text:style-name="P17" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1748_1985123062"/>本作品的智慧財產授權條款<text:line-break/><text:span text:style-name="T3">Intellectual Property License Applied to This Work</text:span><text:bookmark-end text:name="__RefHeading__1748_1985123062"/></text:h>
+			<text:h text:style-name="P18" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__2048_1985123062"/>本作品使用的字型<text:line-break/><text:span text:style-name="T10">Fonts Used In This Work</text:span><text:bookmark-end text:name="__RefHeading__2048_1985123062"/></text:h>
+			<text:h text:style-name="P20" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc235_3413728522"/>中文字型<text:bookmark-end text:name="__RefHeading___Toc235_3413728522"/></text:h>
+			<text:p text:style-name="P9">Google Noto Sans CJK <text:span text:style-name="T11">TC</text:span></text:p>
+			<text:h text:style-name="P22" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc237_3413728522"/>獲取方式<text:bookmark-end text:name="__RefHeading___Toc237_3413728522"/></text:h>
+			<text:p text:style-name="P9">自下列網頁下載安裝：<text:line-break/>Google Noto Fonts<text:line-break/><text:a xlink:type="simple" xlink:href="https://www.google.com/get/noto/#sans-hant" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T11">https://www.google.com/get/noto/#sans-hant</text:span></text:a></text:p>
+			<text:h text:style-name="P22" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc239_3413728522"/>使用範圍<text:bookmark-end text:name="__RefHeading___Toc239_3413728522"/></text:h>
+			<text:p text:style-name="Text_20_body">用於所有一般內容</text:p>
+			<text:h text:style-name="P20" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc241_3413728522"/>等寬字型<text:bookmark-end text:name="__RefHeading___Toc241_3413728522"/></text:h>
+			<text:p text:style-name="Text_20_body">
+				<text:span text:style-name="T9">Google Noto</text:span>
+				<text:span text:style-name="T8"> Mono</text:span>
+			</text:p>
+			<text:h text:style-name="Heading_20_3" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc243_3413728522"/>獲取方式<text:bookmark-end text:name="__RefHeading___Toc243_3413728522"/></text:h>
+			<text:p text:style-name="P11">自下列網頁下載安裝：<text:line-break/>Google Noto Fonts<text:line-break/><text:a xlink:type="simple" xlink:href="https://www.google.com/get/noto/#mono-mono" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T11">https://www.google.com/get/noto/#mono-mono</text:span></text:a></text:p>
+			<text:h text:style-name="Heading_20_3" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc245_3413728522"/>使用範圍<text:bookmark-end text:name="__RefHeading___Toc245_3413728522"/></text:h>
+			<text:p text:style-name="P12">使用於「預先格式化的文字」樣式，主要用於命令列介面的命令</text:p>
+			<text:h text:style-name="Heading_20_4" text:outline-level="4"><text:bookmark-start text:name="__RefHeading___Toc247_3413728522"/>範例<text:bookmark-end text:name="__RefHeading___Toc247_3413728522"/></text:h>
+			<text:p text:style-name="Preformatted_20_Text"># apt-get update; apt-get install sl</text:p>
 			<text:table-of-content text:style-name="Sect1" text:name="內容目錄1">
 				<text:table-of-content-source text:outline-level="10">
 					<text:index-title-template text:style-name="Contents_20_Heading">內容大綱(Table of Content)</text:index-title-template>
@@ -1167,86 +1037,107 @@
 				</text:table-of-content-source>
 				<text:index-body>
 					<text:index-title text:style-name="Sect1" text:name="內容目錄1_Head">
-						<text:p text:style-name="P13">內容大綱<text:line-break/>Table of Content</text:p>
+						<text:p text:style-name="P24">內容大綱<text:line-break/>Table of Content</text:p>
 					</text:index-title>
-					<text:p text:style-name="P33">
+					<text:p text:style-name="P16">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1748_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">本作品的智慧財產授權條款 Intellectual Property License Applied to This Work<text:tab/>2</text:a>
 					</text:p>
-					<text:p text:style-name="P33">
+					<text:p text:style-name="P16">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__2048_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">本作品使用的字型 Fonts Used In This Work<text:tab/>3</text:a>
 					</text:p>
-					<text:p text:style-name="P33">
+					<text:p text:style-name="P26">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc235_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">中文字型<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P28">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc237_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">獲取方式<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P28">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc239_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">使用範圍<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P26">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc241_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">等寬字型<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P28">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc243_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">獲取方式<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P28">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc245_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">使用範圍<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P25">
+						<text:a xlink:type="simple" xlink:href="#__RefHeading___Toc247_3413728522" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">範例<text:tab/>3</text:a>
+					</text:p>
+					<text:p text:style-name="P16">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1750_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">第１個第一級標題<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P42">
+					<text:p text:style-name="P26">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1752_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">第二級標題<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P43">
+					<text:p text:style-name="P28">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1754_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">第三級標題<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P41">
+					<text:p text:style-name="P25">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1518_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">第四級標題<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P40">
+					<text:p text:style-name="P27">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1520_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">第五級標題<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P33">
+					<text:p text:style-name="P16">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1756_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">第２個第一級標題<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P33">
+					<text:p text:style-name="P16">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1758_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">其他樣式設定<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P42">
+					<text:p text:style-name="P26">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__1760_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">清單 List<text:tab/>5</text:a>
 					</text:p>
-					<text:p text:style-name="P42">
+					<text:p text:style-name="P26">
 						<text:a xlink:type="simple" xlink:href="#__RefHeading__2050_1985123062" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">預先格式化文字 Pre-formatted Text<text:tab/>6</text:a>
 					</text:p>
 				</text:index-body>
 			</text:table-of-content>
 			<text:p text:style-name="P7"/>
-			<text:h text:style-name="P11" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1750_1985123062"/>第<text:span text:style-name="T2">１</text:span>個第一級標題<text:bookmark-end text:name="__RefHeading__1750_1985123062"/></text:h>
-			<text:p text:style-name="P7">使用 <text:span text:style-name="T7">32 點(pt)字型大小</text:span></text:p>
+			<text:h text:style-name="P17" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1750_1985123062"/>第<text:span text:style-name="T2">１</text:span>個第一級標題<text:bookmark-end text:name="__RefHeading__1750_1985123062"/></text:h>
+			<text:p text:style-name="P7">使用 <text:span text:style-name="T6">32 點(pt)字型大小</text:span></text:p>
 			<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__1752_1985123062"/>第二級標題<text:bookmark-end text:name="__RefHeading__1752_1985123062"/></text:h>
-			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T7">80% 的字型大小(32pt*80%)</text:span></text:p>
-			<text:h text:style-name="P22" text:outline-level="3"><text:bookmark-start text:name="__RefHeading__1754_1985123062"/>第三級標題<text:bookmark-end text:name="__RefHeading__1754_1985123062"/></text:h>
-			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T7">80% 的字型大小(32pt*(80%)</text:span><text:span text:style-name="T6">2</text:span><text:span text:style-name="T4">)</text:span></text:p>
+			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T6">80% 的字型大小(32pt*80%)</text:span></text:p>
+			<text:h text:style-name="P23" text:outline-level="3"><text:bookmark-start text:name="__RefHeading__1754_1985123062"/>第三級標題<text:bookmark-end text:name="__RefHeading__1754_1985123062"/></text:h>
+			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T6">80% 的字型大小(32pt*(80%)</text:span><text:span text:style-name="T5">2</text:span><text:span text:style-name="T4">)</text:span></text:p>
 			<text:h text:style-name="P21" text:outline-level="4"><text:bookmark-start text:name="__RefHeading__1518_1985123062"/>第四級標題<text:bookmark-end text:name="__RefHeading__1518_1985123062"/></text:h>
-			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T7">80% 的字型大小(32pt*(80%)</text:span><text:span text:style-name="T6">3</text:span><text:span text:style-name="T4">)</text:span></text:p>
-			<text:h text:style-name="P15" text:outline-level="5"><text:bookmark-start text:name="__RefHeading__1520_1985123062"/>第五級標題<text:bookmark-end text:name="__RefHeading__1520_1985123062"/></text:h>
-			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T7">80% 的字型大小(32pt*(80%)</text:span><text:span text:style-name="T6">4</text:span><text:span text:style-name="T4">)</text:span></text:p>
+			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T6">80% 的字型大小(32pt*(80%)</text:span><text:span text:style-name="T5">3</text:span><text:span text:style-name="T4">)</text:span></text:p>
+			<text:h text:style-name="P19" text:outline-level="5"><text:bookmark-start text:name="__RefHeading__1520_1985123062"/>第五級標題<text:bookmark-end text:name="__RefHeading__1520_1985123062"/></text:h>
+			<text:p text:style-name="P8">使用上一層標題<text:span text:style-name="T6">80% 的字型大小(32pt*(80%)</text:span><text:span text:style-name="T5">4</text:span><text:span text:style-name="T4">)</text:span></text:p>
 			<text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1756_1985123062"/>第２個第一級標題<text:bookmark-end text:name="__RefHeading__1756_1985123062"/></text:h>
 			<text:h text:style-name="Heading_20_1" text:outline-level="1"><text:bookmark-start text:name="__RefHeading__1758_1985123062"/>其他樣式設定<text:bookmark-end text:name="__RefHeading__1758_1985123062"/></text:h>
-			<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__1760_1985123062"/>清單<text:line-break/><text:span text:style-name="T7">List</text:span><text:bookmark-end text:name="__RefHeading__1760_1985123062"/></text:h>
+			<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__1760_1985123062"/>清單<text:line-break/><text:span text:style-name="T6">List</text:span><text:bookmark-end text:name="__RefHeading__1760_1985123062"/></text:h>
 			<text:list text:style-name="L2">
 				<text:list-item>
-					<text:p text:style-name="P30">無順序性清單項目</text:p>
+					<text:p text:style-name="P13">無順序性清單項目</text:p>
 				</text:list-item>
 			</text:list>
 			<text:list text:style-name="L3">
 				<text:list-item>
 					<text:list>
 						<text:list-item>
-							<text:p text:style-name="P32">第<text:span text:style-name="T7">1.A有順序性清單項目</text:span></text:p>
+							<text:p text:style-name="P15">第<text:span text:style-name="T6">1.A有順序性清單項目</text:span></text:p>
 						</text:list-item>
 						<text:list-item>
-							<text:p text:style-name="P32">第<text:span text:style-name="T7">1.B有順序性清單項目</text:span></text:p>
+							<text:p text:style-name="P15">第<text:span text:style-name="T6">1.B有順序性清單項目</text:span></text:p>
 						</text:list-item>
 					</text:list>
 				</text:list-item>
 			</text:list>
-			<text:list text:continue-list="list2574951084" text:style-name="L2">
+			<text:list text:continue-list="list3840690296" text:style-name="L2">
 				<text:list-item>
-					<text:p text:style-name="P31">無順序性清單項目</text:p>
+					<text:p text:style-name="P14">無順序性清單項目</text:p>
 				</text:list-item>
 				<text:list-item>
-					<text:p text:style-name="P31"><text:soft-page-break/>無順序性清單項目</text:p>
+					<text:p text:style-name="P14"><text:soft-page-break/>無順序性清單項目</text:p>
 				</text:list-item>
 			</text:list>
-			<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__2050_1985123062"/>預先格式化文字<text:line-break/><text:span text:style-name="T7">Pre-formatted Text</text:span><text:bookmark-end text:name="__RefHeading__2050_1985123062"/></text:h>
+			<text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="__RefHeading__2050_1985123062"/>預先格式化文字<text:line-break/><text:span text:style-name="T6">Pre-formatted Text</text:span><text:bookmark-end text:name="__RefHeading__2050_1985123062"/></text:h>
 			<text:list text:style-name="L4">
 				<text:list-item>
-					<text:p text:style-name="P45">$ sudo apt-get install ios android windows mac</text:p>
+					<text:p text:style-name="P29">$ sudo apt-get install ios android windows mac</text:p>
 				</text:list-item>
 			</text:list>
 		</office:text>
