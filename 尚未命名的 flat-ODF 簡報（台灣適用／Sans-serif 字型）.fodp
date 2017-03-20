@@ -510,9 +510,15 @@
 						<text:span text:style-name="T1">
 							<presentation:header/>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:span text:style-name="T1">
 							<presentation:header/>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
+						<text:span text:style-name="T1">
+							<presentation:header/>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<presentation:header/>
 					</text:p>
 				</draw:text-box>
@@ -523,9 +529,15 @@
 						<text:span text:style-name="T1">
 							<presentation:date-time/>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:span text:style-name="T1">
 							<presentation:date-time/>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
+						<text:span text:style-name="T1">
+							<presentation:date-time/>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<presentation:date-time/>
 					</text:p>
 				</draw:text-box>
@@ -536,9 +548,15 @@
 						<text:span text:style-name="T1">
 							<presentation:footer/>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:span text:style-name="T1">
 							<presentation:footer/>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
+						<text:span text:style-name="T1">
+							<presentation:footer/>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<presentation:footer/>
 					</text:p>
 				</draw:text-box>
@@ -549,9 +567,15 @@
 						<text:span text:style-name="T1">
 							<text:page-number>&lt;編號&gt;</text:page-number>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:span text:style-name="T1">
 							<text:page-number>&lt;編號&gt;</text:page-number>
 						</text:span>
+						<text:span text:style-name="T1"> </text:span>
+						<text:span text:style-name="T1">
+							<text:page-number>&lt;編號&gt;</text:page-number>
+						</text:span>
+						<text:span text:style-name="T1"> </text:span>
 						<text:page-number>&lt;編號&gt;</text:page-number>
 					</text:p>
 				</draw:text-box>
@@ -559,6 +583,9 @@
 		</style:handout-master>
 		<style:master-page style:name="預設" style:page-layout-name="PM1" draw:style-name="dp1">
 			<draw:frame presentation:style-name="預設-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<draw:frame presentation:style-name="預設-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
@@ -591,14 +618,15 @@
 			<draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.131cm" presentation:class="page-number">
 				<draw:text-box>
 					<text:p text:style-name="P3">
-						<text:span text:style-name="T1">
-							<text:page-number>&lt;編號&gt;</text:page-number>
-						</text:span>
+						<text:page-number>&lt;編號&gt;</text:page-number>
 					</text:p>
 				</draw:text-box>
 			</draw:frame>
 			<presentation:notes style:page-layout-name="PM0">
 				<draw:page-thumbnail presentation:style-name="預設-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
 				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
 					<draw:text-box/>
 				</draw:frame>
@@ -614,9 +642,15 @@
 							<text:span text:style-name="T1">
 								<presentation:header/>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<presentation:header/>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
+							<text:span text:style-name="T1">
+								<presentation:header/>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<presentation:header/>
 						</text:p>
 					</draw:text-box>
@@ -627,9 +661,15 @@
 							<text:span text:style-name="T1">
 								<presentation:date-time/>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<presentation:date-time/>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
+							<text:span text:style-name="T1">
+								<presentation:date-time/>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<presentation:date-time/>
 						</text:p>
 					</draw:text-box>
@@ -640,9 +680,15 @@
 							<text:span text:style-name="T1">
 								<presentation:footer/>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<presentation:footer/>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
+							<text:span text:style-name="T1">
+								<presentation:footer/>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<presentation:footer/>
 						</text:p>
 					</draw:text-box>
@@ -653,9 +699,15 @@
 							<text:span text:style-name="T1">
 								<text:page-number>&lt;編號&gt;</text:page-number>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:span text:style-name="T1">
 								<text:page-number>&lt;編號&gt;</text:page-number>
 							</text:span>
+							<text:span text:style-name="T1"> </text:span>
+							<text:span text:style-name="T1">
+								<text:page-number>&lt;編號&gt;</text:page-number>
+							</text:span>
+							<text:span text:style-name="T1"> </text:span>
 							<text:page-number>&lt;編號&gt;</text:page-number>
 						</text:p>
 					</draw:text-box>
