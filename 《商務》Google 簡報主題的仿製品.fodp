@@ -644,7 +644,7 @@
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:style style:name="封底頁-title" style:family="presentation">
-			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="bottom" draw:auto-grow-width="true">
 				<text:list-style style:name="封底頁-title">
 					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
 						<style:list-level-properties text:min-label-width="0.6cm"/>
@@ -834,7 +834,7 @@
 					<text:p/>
 				</draw:line>
 			</draw:g>
-			<draw:frame presentation:style-name="封底頁-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="14.894cm" presentation:class="title" presentation:placeholder="true">
+			<draw:frame presentation:style-name="封底頁-title" draw:layer="backgroundobjects" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="14.894cm" presentation:class="title" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<draw:frame presentation:style-name="封底頁-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="2.2cm" svg:x="1.4cm" svg:y="18.8cm" presentation:class="outline" presentation:placeholder="true">
