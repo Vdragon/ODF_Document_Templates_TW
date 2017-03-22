@@ -348,13 +348,16 @@
 		<style:style style:name="pr1" style:family="presentation" style:parent-style-name="封面頁-backgroundobjects">
 			<style:graphic-properties draw:stroke="none" svg:stroke-color="#3465a4" draw:fill="solid" draw:fill-color="#2388db" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="14.6cm" fo:min-width="28cm"/>
 		</style:style>
-		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="封面頁-title">
+		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="封面頁-backgroundobjects">
+			<style:graphic-properties svg:stroke-width="0.15cm" svg:stroke-color="#1e74ba" draw:marker-start-width="0.655cm" draw:marker-end-width="0.655cm" draw:fill="none" draw:textarea-vertical-align="middle" fo:padding-top="0.075cm" fo:padding-bottom="0.075cm" fo:padding-left="0.075cm" fo:padding-right="0.075cm"/>
+		</style:style>
+		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="封面頁-title">
 			<style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm"/>
 		</style:style>
-		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="封面頁-subtitle">
+		<style:style style:name="pr4" style:family="presentation" style:parent-style-name="封面頁-subtitle">
 			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="12.179cm"/>
 		</style:style>
-		<style:style style:name="pr4" style:family="presentation" style:parent-style-name="封面頁-notes">
+		<style:style style:name="pr5" style:family="presentation" style:parent-style-name="封面頁-notes">
 			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="13.364cm"/>
 		</style:style>
 		<style:style style:name="P1" style:family="paragraph">
@@ -362,6 +365,10 @@
 			<style:paragraph-properties fo:text-align="center"/>
 		</style:style>
 		<style:style style:name="P2" style:family="paragraph">
+			<loext:graphic-properties draw:fill="none"/>
+			<style:paragraph-properties fo:text-align="center"/>
+		</style:style>
+		<style:style style:name="P3" style:family="paragraph">
 			<loext:graphic-properties draw:fill-color="#ffffff"/>
 		</style:style>
 	</office:automatic-styles>
@@ -392,6 +399,9 @@
 			<draw:frame presentation:style-name="封面頁-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
+			<draw:line presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:x1="0cm" svg:y1="14.6cm" svg:x2="28cm" svg:y2="14.6cm">
+				<text:p/>
+			</draw:line>
 			<presentation:notes style:page-layout-name="PM0">
 				<draw:page-thumbnail presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="13.985cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
 				<draw:frame presentation:style-name="封面頁-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
