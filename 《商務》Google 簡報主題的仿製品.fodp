@@ -345,16 +345,23 @@
 		<style:style style:name="gr1" style:family="graphic">
 			<style:graphic-properties style:protect="size"/>
 		</style:style>
-		<style:style style:name="pr1" style:family="presentation" style:parent-style-name="封面頁-title">
+		<style:style style:name="pr1" style:family="presentation" style:parent-style-name="封面頁-backgroundobjects">
+			<style:graphic-properties draw:stroke="none" svg:stroke-color="#3465a4" draw:fill="solid" draw:fill-color="#2388db" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:min-height="14.6cm" fo:min-width="28cm"/>
+		</style:style>
+		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="封面頁-title">
 			<style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm"/>
 		</style:style>
-		<style:style style:name="pr2" style:family="presentation" style:parent-style-name="封面頁-subtitle">
+		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="封面頁-subtitle">
 			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="12.179cm"/>
 		</style:style>
-		<style:style style:name="pr3" style:family="presentation" style:parent-style-name="封面頁-notes">
+		<style:style style:name="pr4" style:family="presentation" style:parent-style-name="封面頁-notes">
 			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="13.364cm"/>
 		</style:style>
 		<style:style style:name="P1" style:family="paragraph">
+			<loext:graphic-properties draw:fill="solid" draw:fill-color="#2388db"/>
+			<style:paragraph-properties fo:text-align="center"/>
+		</style:style>
+		<style:style style:name="P2" style:family="paragraph">
 			<loext:graphic-properties draw:fill-color="#ffffff"/>
 		</style:style>
 	</office:automatic-styles>
@@ -375,6 +382,10 @@
 			<draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="20.05cm"/>
 		</style:handout-master>
 		<style:master-page style:name="封面頁" style:page-layout-name="PM1" draw:style-name="dp1">
+			<draw:custom-shape draw:name="標題藍框" presentation:style-name="pr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="28cm" svg:height="14.6cm" svg:x="0cm" svg:y="0cm">
+				<text:p/>
+				<draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+			</draw:custom-shape>
 			<draw:frame presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
