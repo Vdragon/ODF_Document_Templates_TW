@@ -266,7 +266,7 @@
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:style style:name="封面頁-title" style:family="presentation">
-			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+			<style:graphic-properties draw:stroke="none" svg:stroke-color="#3465a4" draw:fill="none" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="bottom" draw:auto-grow-width="true" draw:shadow-color="#000000">
 				<text:list-style style:name="封面頁-title">
 					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
 						<style:list-level-properties text:min-label-width="0.6cm"/>
@@ -310,8 +310,8 @@
 					</text:list-level-style-bullet>
 				</text:list-style>
 			</style:graphic-properties>
-			<style:paragraph-properties fo:text-align="center"/>
-			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+			<style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:presentation-page-layout style:name="AL0T26">
 			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
@@ -386,14 +386,14 @@
 				<text:p/>
 				<draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
 			</draw:custom-shape>
-			<draw:frame presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="11.094cm" presentation:class="title" presentation:placeholder="true">
+			<draw:frame presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="11.094cm" presentation:class="title" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<draw:frame presentation:style-name="封面頁-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<presentation:notes style:page-layout-name="PM0">
-				<draw:page-thumbnail presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+				<draw:page-thumbnail presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="13.985cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
 				<draw:frame presentation:style-name="封面頁-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
 					<draw:text-box/>
 				</draw:frame>
