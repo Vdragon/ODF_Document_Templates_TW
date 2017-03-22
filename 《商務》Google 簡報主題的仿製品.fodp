@@ -594,22 +594,5 @@
 		</style:master-page>
 	</office:master-styles>
 	<office:body>
-		<office:presentation>
-			<draw:page draw:name="page1" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL1T0">
-				<draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
-					<draw:text-box/>
-				</draw:frame>
-				<draw:frame presentation:style-name="pr5" draw:text-style-name="P7" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="subtitle" presentation:placeholder="true">
-					<draw:text-box/>
-				</draw:frame>
-				<presentation:notes draw:style-name="dp2">
-					<draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="14.848cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="1" presentation:class="page"/>
-					<draw:frame presentation:style-name="pr6" draw:text-style-name="P7" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
-						<draw:text-box/>
-					</draw:frame>
-				</presentation:notes>
-			</draw:page>
-			<presentation:settings presentation:mouse-visible="false"/>
-		</office:presentation>
 	</office:body>
 </office:document>
