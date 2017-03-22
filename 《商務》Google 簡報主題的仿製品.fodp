@@ -262,7 +262,7 @@
 					</text:list-level-style-bullet>
 				</text:list-style>
 			</style:graphic-properties>
-			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm" style:writing-mode="lr-tb"/>
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="start" fo:text-indent="0cm" style:writing-mode="lr-tb"/>
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:style style:name="封面頁-title" style:family="presentation">
@@ -310,7 +310,7 @@
 					</text:list-level-style-bullet>
 				</text:list-style>
 			</style:graphic-properties>
-			<style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+			<style:paragraph-properties fo:text-align="start" style:writing-mode="lr-tb"/>
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:style style:name="預設-background" style:family="presentation">
@@ -699,11 +699,7 @@
 			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
 			<presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
 		</style:presentation-page-layout>
-		<style:presentation-page-layout style:name="AL1T0">
-			<presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
-			<presentation:placeholder presentation:object="subtitle" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
-		</style:presentation-page-layout>
-		<style:presentation-page-layout style:name="AL2T1">
+		<style:presentation-page-layout style:name="AL1T1">
 			<presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
 			<presentation:placeholder presentation:object="outline" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
 		</style:presentation-page-layout>
@@ -746,13 +742,13 @@
 			<style:graphic-properties svg:stroke-width="0.15cm" svg:stroke-color="#1e74ba" draw:marker-start-width="0.655cm" draw:marker-end-width="0.655cm" draw:fill="none" draw:textarea-vertical-align="middle" fo:padding-top="0.075cm" fo:padding-bottom="0.075cm" fo:padding-left="0.075cm" fo:padding-right="0.075cm" style:protect="size"/>
 		</style:style>
 		<style:style style:name="pr7" style:family="presentation" style:parent-style-name="封面頁-title">
-			<style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm"/>
+			<style:graphic-properties fo:min-height="3.506cm" fo:min-width="18.646cm"/>
 		</style:style>
-		<style:style style:name="pr8" style:family="presentation" style:parent-style-name="封面頁-subtitle">
-			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="6.2cm"/>
+		<style:style style:name="pr8" style:family="presentation" style:parent-style-name="封面頁-outline1">
+			<style:graphic-properties fo:min-height="1.419cm"/>
 		</style:style>
 		<style:style style:name="pr9" style:family="presentation" style:parent-style-name="封面頁-notes">
-			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="13.364cm"/>
+			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="13.364cm"/>
 		</style:style>
 		<style:style style:name="pr10" style:family="presentation" style:parent-style-name="預設-title">
 			<style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm" fo:min-width="18.646cm"/>
@@ -813,7 +809,7 @@
 			<draw:frame presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="11.094cm" presentation:class="title" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
-			<draw:frame draw:name="副標題" presentation:style-name="封面頁-subtitle" draw:layer="backgroundobjects" svg:width="9.044cm" svg:height="6.2cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="subtitle" presentation:placeholder="true">
+			<draw:frame draw:name="副標題" presentation:style-name="封面頁-subtitle" draw:layer="backgroundobjects" svg:width="9.044cm" svg:height="1.669cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="subtitle" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<presentation:notes style:page-layout-name="PM0">
@@ -872,11 +868,11 @@
 	</office:master-styles>
 	<office:body>
 		<office:presentation>
-			<draw:page draw:name="封面" draw:style-name="dp3" draw:master-page-name="封面頁" presentation:presentation-page-layout-name="AL1T0">
-				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="12.431cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="11.094cm" presentation:class="title" presentation:placeholder="true">
+			<draw:page draw:name="封面" draw:style-name="dp3" draw:master-page-name="封面頁" presentation:presentation-page-layout-name="AL1T1">
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="11.094cm" presentation:class="title" presentation:placeholder="true">
 					<draw:text-box/>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr8" draw:text-style-name="P3" draw:layer="layout" svg:width="9.044cm" svg:height="6.2cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="subtitle" presentation:placeholder="true">
+				<draw:frame presentation:style-name="pr8" draw:layer="layout" svg:width="9.044cm" svg:height="1.669cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="outline" presentation:placeholder="true">
 					<draw:text-box/>
 				</draw:frame>
 				<presentation:notes draw:style-name="dp2">
@@ -886,30 +882,30 @@
 					</draw:frame>
 				</presentation:notes>
 			</draw:page>
-			<draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL2T1">
-				<draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+			<draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="預設" presentation:presentation-page-layout-name="AL1T1">
+				<draw:frame presentation:style-name="pr10" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
 					<draw:text-box/>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:frame presentation:style-name="pr11" draw:layer="layout" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
 					<draw:text-box/>
 				</draw:frame>
 				<presentation:notes draw:style-name="dp2">
 					<draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="13.985cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="2" presentation:class="page"/>
-					<draw:frame presentation:style-name="pr12" draw:text-style-name="P3" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:frame presentation:style-name="pr12" draw:text-style-name="P3" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
 						<draw:text-box/>
 					</draw:frame>
 				</presentation:notes>
 			</draw:page>
-			<draw:page draw:name="封底" draw:style-name="dp3" draw:master-page-name="封底頁" presentation:presentation-page-layout-name="AL2T1">
-				<draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="14.894cm" presentation:class="title" presentation:placeholder="true">
+			<draw:page draw:name="封底" draw:style-name="dp3" draw:master-page-name="封底頁" presentation:presentation-page-layout-name="AL1T1">
+				<draw:frame presentation:style-name="pr13" draw:layer="layout" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="14.894cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
 					<draw:text-box/>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.199cm" svg:height="2.2cm" svg:x="1.4cm" svg:y="18.8cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:frame presentation:style-name="pr14" draw:layer="layout" svg:width="25.199cm" svg:height="2.2cm" svg:x="1.4cm" svg:y="18.8cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
 					<draw:text-box/>
 				</draw:frame>
 				<presentation:notes draw:style-name="dp2">
 					<draw:page-thumbnail draw:style-name="gr1" draw:layer="layout" svg:width="13.985cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="3" presentation:class="page"/>
-					<draw:frame presentation:style-name="pr15" draw:text-style-name="P3" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:frame presentation:style-name="pr15" draw:text-style-name="P3" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
 						<draw:text-box/>
 					</draw:frame>
 				</presentation:notes>
