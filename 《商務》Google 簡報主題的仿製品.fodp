@@ -396,7 +396,7 @@
 			<draw:frame presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="18.646cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="11.094cm" presentation:class="title" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
-			<draw:frame draw:name="副標題" presentation:style-name="封面頁-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="6.2cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="outline" presentation:placeholder="true">
+			<draw:frame draw:name="副標題" presentation:style-name="封面頁-subtitle" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="6.2cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="subtitle" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<draw:line presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:x1="0cm" svg:y1="14.6cm" svg:x2="28cm" svg:y2="14.6cm">
