@@ -688,8 +688,8 @@
 					</text:list-level-style-bullet>
 				</text:list-style>
 			</style:graphic-properties>
-			<style:paragraph-properties fo:text-align="center"/>
-			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+			<style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:presentation-page-layout style:name="AL0T26">
 			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
@@ -742,10 +742,10 @@
 			<style:graphic-properties svg:stroke-width="0.15cm" svg:stroke-color="#1e74ba" draw:marker-start-width="0.655cm" draw:marker-end-width="0.655cm" draw:fill="none" draw:textarea-vertical-align="middle" fo:padding-top="0.075cm" fo:padding-bottom="0.075cm" fo:padding-left="0.075cm" fo:padding-right="0.075cm" style:protect="size"/>
 		</style:style>
 		<style:style style:name="pr7" style:family="presentation" style:parent-style-name="封面頁-title">
-			<style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm"/>
+			<style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm" fo:min-width="12.431cm"/>
 		</style:style>
 		<style:style style:name="pr8" style:family="presentation" style:parent-style-name="封面頁-subtitle">
-			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="6.2cm"/>
+			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="6.2cm" fo:min-width="9.044cm"/>
 		</style:style>
 		<style:style style:name="pr9" style:family="presentation" style:parent-style-name="封面頁-notes">
 			<style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="13.364cm"/>
