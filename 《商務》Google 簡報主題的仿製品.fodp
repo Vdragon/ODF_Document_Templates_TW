@@ -502,6 +502,195 @@
 			<style:paragraph-properties fo:text-align="center" style:writing-mode="lr-tb"/>
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
+		<style:style style:name="封底頁-background" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:text-properties style:letter-kerning="true"/>
+		</style:style>
+		<style:style style:name="封底頁-backgroundobjects" style:family="presentation">
+			<style:graphic-properties draw:textarea-horizontal-align="justify" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+			<style:text-properties style:letter-kerning="true"/>
+		</style:style>
+		<style:style style:name="封底頁-notes" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none"/>
+			<style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular" style:font-family-asian="Noto Sans CJK TC Regular" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular" style:font-family-complex="Noto Sans CJK TC Regular" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="封底頁-outline1" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+				<text:list-style style:name="封底頁-outline1">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="–">
+						<style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="–">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular" style:font-family-asian="Noto Sans CJK TC Regular" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular" style:font-family-complex="Noto Sans CJK TC Regular" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="封底頁-outline2" style:family="presentation" style:parent-style-name="封底頁-outline1">
+			<style:paragraph-properties fo:margin-top="0.4cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline3" style:family="presentation" style:parent-style-name="封底頁-outline2">
+			<style:paragraph-properties fo:margin-top="0.3cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline4" style:family="presentation" style:parent-style-name="封底頁-outline3">
+			<style:paragraph-properties fo:margin-top="0.2cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline5" style:family="presentation" style:parent-style-name="封底頁-outline4">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline6" style:family="presentation" style:parent-style-name="封底頁-outline5">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline7" style:family="presentation" style:parent-style-name="封底頁-outline6">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline8" style:family="presentation" style:parent-style-name="封底頁-outline7">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="封底頁-outline9" style:family="presentation" style:parent-style-name="封底頁-outline8">
+			<style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
+			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+		</style:style>
+		<style:style style:name="封底頁-subtitle" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+				<text:list-style style:name="封底頁-subtitle">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular" style:font-family-asian="Noto Sans CJK TC Regular" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular" style:font-family-complex="Noto Sans CJK TC Regular" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
+		<style:style style:name="封底頁-title" style:family="presentation">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+				<text:list-style style:name="封底頁-title">
+					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
+						<style:list-level-properties text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="2" text:bullet-char="●">
+						<style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="3" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="4" text:bullet-char="●">
+						<style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="5" text:bullet-char="●">
+						<style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="6" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="7" text:bullet-char="●">
+						<style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="8" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="9" text:bullet-char="●">
+						<style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+					<text:list-level-style-bullet text:level="10" text:bullet-char="●">
+						<style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+						<style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+					</text:list-level-style-bullet>
+				</text:list-style>
+			</style:graphic-properties>
+			<style:paragraph-properties fo:text-align="center"/>
+			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular" style:font-family-asian="Noto Sans CJK TC Regular" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular" style:font-family-complex="Noto Sans CJK TC Regular" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+		</style:style>
 		<style:presentation-page-layout style:name="AL0T26">
 			<presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
 			<presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
@@ -621,6 +810,20 @@
 			<presentation:notes style:page-layout-name="PM0">
 				<draw:page-thumbnail presentation:style-name="預設-title" draw:layer="backgroundobjects" svg:width="13.985cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
 				<draw:frame presentation:style-name="預設-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+					<draw:text-box/>
+				</draw:frame>
+			</presentation:notes>
+		</style:master-page>
+		<style:master-page style:name="封底頁" style:page-layout-name="PM1" draw:style-name="dp1">
+			<draw:frame presentation:style-name="封底頁-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<draw:frame presentation:style-name="封底頁-outline1" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="12.179cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+				<draw:text-box/>
+			</draw:frame>
+			<presentation:notes style:page-layout-name="PM0">
+				<draw:page-thumbnail presentation:style-name="封底頁-title" draw:layer="backgroundobjects" svg:width="13.985cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+				<draw:frame presentation:style-name="封底頁-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
 					<draw:text-box/>
 				</draw:frame>
 			</presentation:notes>
