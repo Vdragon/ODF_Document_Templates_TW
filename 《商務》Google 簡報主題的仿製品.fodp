@@ -138,7 +138,7 @@
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:style style:name="封面頁-outline1" style:family="presentation">
-			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+			<style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-horizontal-align="left" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
 				<text:list-style style:name="封面頁-outline1">
 					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
 						<style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
@@ -182,7 +182,7 @@
 					</text:list-level-style-bullet>
 				</text:list-style>
 			</style:graphic-properties>
-			<style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0cm"/>
+			<style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0cm" style:writing-mode="lr-tb"/>
 			<style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Noto Sans CJK TC Regular" fo:font-family="'Noto Sans CJK TC Regular'" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK TC Regular1" style:font-family-asian="'Noto Sans CJK TC Regular'" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Noto Sans CJK TC Regular1" style:font-family-complex="'Noto Sans CJK TC Regular'" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
 		</style:style>
 		<style:style style:name="封面頁-outline2" style:family="presentation" style:parent-style-name="封面頁-outline1">
@@ -218,7 +218,7 @@
 			<style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
 		</style:style>
 		<style:style style:name="封面頁-subtitle" style:family="presentation">
-			<style:graphic-properties draw:stroke="none" svg:stroke-color="#3465a4" draw:fill="none" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-width="true" draw:shadow-color="#000000">
+			<style:graphic-properties draw:stroke="none" svg:stroke-color="#3465a4" draw:fill="none" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:auto-grow-width="false" draw:shadow-color="#000000">
 				<text:list-style style:name="封面頁-subtitle">
 					<text:list-level-style-bullet text:level="1" text:bullet-char="●">
 						<style:list-level-properties text:min-label-width="0.6cm"/>
@@ -742,10 +742,10 @@
 			<style:graphic-properties svg:stroke-width="0.15cm" svg:stroke-color="#1e74ba" draw:marker-start-width="0.655cm" draw:marker-end-width="0.655cm" draw:fill="none" draw:textarea-vertical-align="middle" fo:padding-top="0.075cm" fo:padding-bottom="0.075cm" fo:padding-left="0.075cm" fo:padding-right="0.075cm" style:protect="size"/>
 		</style:style>
 		<style:style style:name="pr7" style:family="presentation" style:parent-style-name="封面頁-title">
-			<style:graphic-properties fo:min-height="1.2cm" fo:min-width="12.431cm"/>
+			<style:graphic-properties fo:min-height="2.295cm" fo:min-width="18.646cm"/>
 		</style:style>
 		<style:style style:name="pr8" style:family="presentation" style:parent-style-name="封面頁-outline1">
-			<style:graphic-properties fo:min-height="1.419cm"/>
+			<style:graphic-properties fo:min-height="5.95cm"/>
 		</style:style>
 		<style:style style:name="pr9" style:family="presentation" style:parent-style-name="封面頁-notes">
 			<style:graphic-properties draw:fill-color="#ffffff" fo:min-height="13.364cm"/>
@@ -809,7 +809,7 @@
 			<draw:frame presentation:style-name="封面頁-title" draw:layer="backgroundobjects" svg:width="18.646cm" svg:height="2.2cm" svg:x="1.4cm" svg:y="12.4cm" presentation:class="title" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
-			<draw:frame draw:name="副標題" presentation:style-name="封面頁-subtitle" draw:layer="backgroundobjects" svg:width="9.044cm" svg:height="1.669cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="subtitle" presentation:placeholder="true">
+			<draw:frame draw:name="副標題" presentation:style-name="封面頁-subtitle" draw:layer="backgroundobjects" svg:width="25.2cm" svg:height="6.2cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="subtitle" presentation:placeholder="true">
 				<draw:text-box/>
 			</draw:frame>
 			<presentation:notes style:page-layout-name="PM0">
@@ -869,10 +869,10 @@
 	<office:body>
 		<office:presentation>
 			<draw:page draw:name="封面" draw:style-name="dp3" draw:master-page-name="封面頁" presentation:presentation-page-layout-name="AL1T1">
-				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="12.431cm" svg:height="2.295cm" svg:x="1.4cm" svg:y="12.305cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
+				<draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="18.646cm" svg:height="2.295cm" svg:x="1.4cm" svg:y="12.305cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
 					<draw:text-box/>
 				</draw:frame>
-				<draw:frame presentation:style-name="pr8" draw:layer="layout" svg:width="8.6cm" svg:height="1.4cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
+				<draw:frame presentation:style-name="pr8" draw:layer="layout" svg:width="25.2cm" svg:height="6.2cm" svg:x="1.4cm" svg:y="14.8cm" presentation:class="outline" presentation:placeholder="true" presentation:user-transformed="true">
 					<draw:text-box/>
 				</draw:frame>
 				<presentation:notes draw:style-name="dp2">
